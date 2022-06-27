@@ -27,6 +27,21 @@ header nav ul li a:hover {
   min-height: 400px;
 }
 
+.train .box {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgba(165, 42, 42, 0.151);
+}
+
+.train .box p {
+  font-size: 1.1rem;
+}
+
+.train .box p.train-code,
+.train .box p.departure-time {
+  font-weight: bold;
+}
+
 footer a {
   color: black;
   text-decoration: none;

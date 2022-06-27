@@ -32,6 +32,21 @@ header{
     min-height: 400px;
 }
 
+.train{
+    .box{
+
+        border: 1px solid black;
+        border-radius: 15px;
+        background-color: rgba(165, 42, 42, 0.151);
+        p{
+            font-size: 1.1rem;
+            &.train-code, &.departure-time{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
 
 //FOOTER
 footer{
