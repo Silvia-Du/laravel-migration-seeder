@@ -23,6 +23,7 @@ class TrainsTableSeeder extends Seeder
             $newTrain->num_carriages = $faker->numberBetween(1, 10);
             $newTrain->in_time = $faker->numberBetween(0, 1);
             $newTrain->deleted = $faker->numberBetween(0, 1);
+            $newTrain->save();
         }
     }
 }
