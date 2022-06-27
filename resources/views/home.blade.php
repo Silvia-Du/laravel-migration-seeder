@@ -2,6 +2,10 @@
 
 @section('content')
 
-<h1>Home</h1>
+<div class="home d-flex justify-content-center align-items-center">
+
+    <h1>Home</h1>
+</div>
+
 
 @endsection

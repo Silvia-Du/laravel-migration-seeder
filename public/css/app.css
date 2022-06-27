@@ -1,0 +1,48 @@
+.debug {
+  background-color: rgba(165, 42, 42, 0.603);
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: black;
+  margin: 0 20px;
+}
+
+header nav ul li a.active {
+  color: beige;
+}
+
+header nav ul li a:hover {
+  color: beige;
+}
+
+.home,
+.about {
+  min-height: 400px;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: beige;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li:first-child {
+  color: rgb(179, 165, 165);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+

@@ -1,0 +1,56 @@
+.debug{
+    background-color: rgba(165, 42, 42, 0.603);
+}
+
+
+//HEADER
+header{
+    nav{
+        ul li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                font-size: 1.4rem;
+                text-transform: uppercase;
+                color: black;
+                margin: 0 20px;
+                &.active{
+                    color: beige;
+                }
+                &:hover{
+                    color: beige;
+                }
+            }
+        }
+    }
+}
+
+//MAIN COMP
+
+
+.home, .about{
+    min-height: 400px;
+}
+
+
+//FOOTER
+footer{
+    a{
+        color: black;
+        text-decoration: none;
+        &:hover{
+            color: beige;
+        }
+    }
+
+    ul{
+        list-style: none;
+        li{
+            &:first-child{
+                color: rgb(179, 165, 165);
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
